@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+h2 {
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    text-align: center;
+    color: #012b7e;
+}
+
+h3 {
+    font-family: 'Cardo', serif;
+    font-size: 23px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+    text-align: center;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background: url('../img/portfolio-hero-image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #78d9da;
+    padding-left: 25px;
+    margin: 0px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    height: 1550px;
+}
+
+#portfolio .full-width {
+    padding: 45px;
+}
+
+#portfolio .half-width {
+    float: left;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 45px;
+}
+
+#about {
+    background-color: #dffdfd;
+}
+
+#about img {
+    border: white;
+    border-style: solid;
+    border-width: 10px;
+}
+
+
+#about p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    height: 350px;
+    background-color: #5dd3e9;
+    padding: 35px;
+}
+
+#contact h2 {
+    margin: 0px;
+    padding:20px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #012b7e;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+     padding-right: 20px;
+}
+
+/***** FOOTER*****/
+
+#footer {
+    background-color: #5dd3e9;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer h4 {
+    margin: 0;
+}
